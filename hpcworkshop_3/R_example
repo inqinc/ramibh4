@@ -1,0 +1,6 @@
+cd ~; mkdir R_libs
+export R_LIBS="/home/<username>/R_libs"
+module load R
+R
+install.packages('sqldf',repos="http://cran.r-project.org")
+quit()

@@ -1,0 +1,9 @@
+#%Module1.0#################################################
+
+module-whatis   "Adds python 2.7.5 to your environment"
+
+set             root            /c1/apps/python/2.7.5
+prepend-path    INCLUDE         $root/include
+prepend-path    LD_LIBRARY_PATH $root/lib
+prepend-path    LIBRARY_PATH    $root/lib
+prepend-path    PATH            $root/bin

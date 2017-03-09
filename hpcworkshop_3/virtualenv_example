@@ -1,0 +1,8 @@
+cd ~
+mkdir my_virtual_env
+cd my_virtual_env
+module load python/3.4.2
+virtualenv test_env
+source ~/my_virtual_env/test_env/bin/activate
+pip install numpy
+

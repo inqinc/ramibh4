@@ -1,0 +1,11 @@
+cd ~
+mkdir figlet; cd figlet
+wget ftp://ftp.figlet.org/pub/figlet/program/unix/figlet-2.2.5.tar.gz
+tar -xvf figlet-2.2.5.tar.gz
+cd figlet-2.2.5
+nano Makefile
+   prefix  = /home/<username/figlet
+   DEFAULTFONTDIR = /home/<username>/figlet/figlet-2.2.5/fonts
+make all
+./figlet
+
